@@ -1,24 +1,42 @@
+
+.link{
+   list-style-type: none;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 
 }
 .container{
-    width: 320px;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* width: 320px; */
+    /* padding-left: 15px;
+    padding-right: 15px; */
     margin-left: auto;
     margin-right: auto;
     outline: 1px solid red;
 }
 .head {
+    margin-top: 0;
     width: auto;
     height: 68px;
     flex-shrink: 0;
     border-radius: 0px 0px 18px 18px;
     background: var(--Dark-grey, #282827);
-}
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    }
 .symbol_def {
+    margin-left: 20px;
 }
 .img_logo {
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 38px;
+   justify-content: center;
 }
-.icon_inst_head {}
+.inst_head {
+    margin-right: 20px;
+}
+<--------------------------------------------------------------------------MAIN----------------------------------------------------------------------->
