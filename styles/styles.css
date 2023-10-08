@@ -2,6 +2,15 @@
 .link{
    list-style-type: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -39,4 +48,65 @@ body{
 .inst_head {
     margin-right: 20px;
 }
-<--------------------------------------------------------------------------MAIN----------------------------------------------------------------------->
+/*--------------------------------------------------------------------------MAIN----------------------------------------------------------------------*/
+.bg_img{
+    background-image: url(../images/bg_main_coffee.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    flex-shrink: 0;
+}
+.title {
+    color: var(--White, #FFFBFA);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 120px;
+}
+.main_text {
+    color: var(--White, #FFFBFA);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8px;
+}
+.button_container {
+    margin-top: 24px;
+    padding-bottom: 332px;
+    /* justify-content: center;
+    align-items: center;
+    content: center; */
+    /* text-align: center; */
+    display: flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button_main {
+    color: var(--White, #FFFBFA);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    display: flex;
+    width: 302px;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+   
+
+    border-radius: 22px;
+    background: var(--Light-brown, #C1865A);
+    margin-top: 24px;
+}
