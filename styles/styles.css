@@ -1,4 +1,7 @@
+html{
+    /* box-sizing: border-box; */
 
+}
 .link{
    list-style-type: none;
 }
@@ -20,12 +23,16 @@ body{
     /* width: 320px; */
     /* padding-left: 15px;
     padding-right: 15px; */
-    margin-left: auto;
-    margin-right: auto;
-    outline: 1px solid red;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* width: 100%; */
+    max-width: 768px;
+    min-width: 320px;
+    margin: 0 auto;
+    /* outline: 1px solid red; */
 }
+
 .head {
-    margin-top: 0;
     width: auto;
     height: 68px;
     flex-shrink: 0;
@@ -33,11 +40,14 @@ body{
     background: var(--Dark-grey, #282827);
     display: flex;
     align-items: center;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    position: relative;
+    
     }
 .symbol_def {
     margin-left: 20px;
+    
 }
 .img_logo {
    margin-right: auto;
@@ -55,7 +65,8 @@ body{
     background-position: center;
     background-size: cover;
     text-align: center;
-    flex-shrink: 0;
+    padding-top: 120px;
+    margin-top: -25px;
 }
 .title {
     color: var(--White, #FFFBFA);
@@ -80,14 +91,12 @@ body{
 .button_container {
     margin-top: 24px;
     padding-bottom: 332px;
-    /* justify-content: center;
     align-items: center;
-    content: center; */
-    /* text-align: center; */
     display: flex;
-    display: block;
+    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
+    gap: 20px;
 }
 
 .button_main {
@@ -105,8 +114,8 @@ body{
     justify-content: center;
     align-items: center;
    
-
     border-radius: 22px;
     background: var(--Light-brown, #C1865A);
-    margin-top: 24px;
+
+    
 }
