@@ -1,5 +1,5 @@
 html {
-    
+    margin: 0;
  }
 
 .link {
@@ -13,6 +13,9 @@ h5,
 h6,
 p {
   margin: 0;
+}
+a{
+    text-decoration: none;
 }
 
 body{
@@ -30,7 +33,7 @@ body{
     max-width: 768px;
     min-width: 320px;
     margin: 0 auto;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 .head {
@@ -125,7 +128,7 @@ body{
     display: block;
     width: 100%;
     height: 72.933px;
-    top: 35px;
+    top: 369px;
     position: relative;
 }
 /* ----------------------------------------------------------------------FOOTER------------------------------------------------ */
@@ -187,4 +190,53 @@ body{
     margin-right: auto;    
     width: 105px;
     height: 128px;
+}
+/*-------------------------------------------------REVIEWS-------------------------------------------*/
+.section_reviews {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -15px;
+   
+}
+.reviews_title {
+    color: var(--Dark-grey, #282827);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 30px;
+}
+.reviews_photo{
+    
+    border-radius: 0px 0px 18px 18px
+
+
+}
+
+.section_reviews_text {
+    color: var(--Dark-grey, #282827);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.span_reviews_first {
+    color: var(--Dark-grey, #282827);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.span_reviews_second {
+    color: var(--Dark-grey, #282827);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
 }
