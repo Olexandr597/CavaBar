@@ -17,6 +17,8 @@ h6,
 p {
   margin: 0;
 }
+
+
 a{
     text-decoration: none;
 }
@@ -76,6 +78,7 @@ body{
     margin-top: -25px;
     margin-bottom: 0;
 }
+
 .title {
     color: var(--White, #FFFBFA);
     text-align: center;
@@ -299,3 +302,4 @@ body{
     margin-top: 32px;
 
 }
+/*======================================*/
