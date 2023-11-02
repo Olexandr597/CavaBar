@@ -1,5 +1,6 @@
 html {
     margin: 0;
+    background: var(--White, #FFFBFA);
  }
 main{
     margin: 0;
@@ -69,7 +70,7 @@ body{
 }
 /*--------------------------------------------------------------------------MAIN----------------------------------------------------------------------*/
 .bg_img{
-    background-image: url(../images/bg_main_coffee.jpg);
+    background-image: url(../images/main_photo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -302,4 +303,56 @@ body{
     margin-top: 32px;
 
 }
-/*======================================*/
+/*--------------------------------------------------HISTORY------------------------------------------------------------------------*/
+
+.history{
+    padding-left: 16px;
+    padding-right: 16px;
+    background: var(--White, #FFFBFA);
+    position: relative;
+    top: -15px;
+  
+}
+.history_title {
+    color: var(--Dark-grey, #282827);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.history_text {
+    color: var(--Dark-grey, #282827);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.photo_history {
+    border-radius: 18px;
+    float: left;
+    margin-right: 16px;
+    /* margin-bottom: 16px; */
+}
+.history_span{
+    color: var(--Dark-grey, #282827);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.footer_span_history{
+    border-radius: 390px / 73px;
+    background: var(--Dark-grey, #282827);
+    display: block;
+    width: 100%;
+    height: 72.933px;
+    top: 36px;
+    position: relative;
+
+}
