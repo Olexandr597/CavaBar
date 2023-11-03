@@ -121,7 +121,7 @@ body{
     line-height: normal;
     
     display: flex;
-    width: 302px;
+    width: 300px;
     padding: 12px;
     justify-content: center;
     align-items: center;
@@ -282,7 +282,7 @@ body{
 }
 .button_reviews{
     display: flex;
-    width: 302px;
+    width: 296px;
     padding: 12px;
     justify-content: center;
     align-items: center;
@@ -306,8 +306,6 @@ body{
 /*--------------------------------------------------HISTORY------------------------------------------------------------------------*/
 
 .history{
-    padding-left: 16px;
-    padding-right: 16px;
     background: var(--White, #FFFBFA);
     position: relative;
     top: -15px;
@@ -331,12 +329,14 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 .photo_history {
     border-radius: 18px;
     float: left;
     margin-right: 16px;
-    /* margin-bottom: 16px; */
+    
 }
 .history_span{
     color: var(--Dark-grey, #282827);
@@ -354,5 +354,90 @@ body{
     height: 72.933px;
     top: 36px;
     position: relative;
+
+}
+/*-------------------------------------------------LOCATION--------------------------------------------------*/
+/* .section_location {
+    /* padding-left: 16px;
+    padding-right: 16px; 
+
+} */
+.location_title {
+    color: var(--Dark-grey, #282827);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 25px;
+    margin-bottom: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.location_box {
+    border-radius: 18px;
+    border: 1px solid var(--Light-brown, #C1865A);
+    text-align: center;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+   
+
+}
+.location_text_first {
+    color: var(--Dark-grey, #282827);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 12px;
+   
+}
+
+.location_text_second {
+    color: var(--Dark-grey, #282827);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   
+}
+.location_inst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_location_box{
+    margin-bottom: 32px;
+}
+
+iframe{
+    border-radius: 18px;
+    
+}
+
+  @media screen and (min-width: 375px) {
+      iframe{
+        width: 326px;
+        height: 144px;
+         
+      }
+      
+  }
+ 
+.footer_span_location {
+    border-radius: 390px / 73px;
+    background: var(--Dark-grey, #282827);
+    display: block;
+    width: 100%;
+    height: 72.933px;
+    top: 36px;
+    position: relative;
+
 
 }
