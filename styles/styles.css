@@ -166,6 +166,7 @@ body{
 .footer_text_container {
     display: flow-root;
     margin-top: 28px;
+    width: 145px;
     
 }
 
