@@ -121,7 +121,7 @@ body{
     line-height: normal;
     
     display: flex;
-    width: 300px;
+    width: 296px;
     padding: 12px;
     justify-content: center;
     align-items: center;
@@ -169,6 +169,18 @@ body{
     width: 145px;
     
 }
+@media screen and (min-width: 375px) {
+    .footer_text_container{
+      width: 148px;
+      
+    }
+    }
+@media screen and (min-width: 475px) {
+    .footer_text_container{
+       width: auto;
+          
+    }
+    }
 
 .footer_text_main {
     color: var(--White, #FFFBFA);
