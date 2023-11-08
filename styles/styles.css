@@ -18,7 +18,9 @@ h6,
 p {
   margin: 0;
 }
-
+.underline_text{ 
+    text-decoration: underline black;
+}
 
 a{
     text-decoration: none;
@@ -211,6 +213,7 @@ body{
     margin-right: auto;    
     width: 105px;
     height: 128px;
+    display: flex;
 }
 /*-------------------------------------------------REVIEWS-------------------------------------------*/
 .footer_span_reviews{
@@ -239,6 +242,8 @@ body{
     font-weight: 600;
     line-height: normal;
     padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .reviews_photo{
     
@@ -375,6 +380,9 @@ body{
     padding-right: 16px; 
 
 } */
+.underline_text{
+    text-decoration: underline black;
+}
 .location_title {
     color: var(--Dark-grey, #282827);
     text-align: center;
