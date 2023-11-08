@@ -13,12 +13,12 @@
 <body>
     <header>
         <ul class="head container">
-            <li class="symbol_def link">
-                <a href="">
+            <li class="menu_icon">
+                <div>
                     <svg width="32" height="32">
                         <use  href="../images/symbol-defs.svg#icon-menu"></use>
                     </svg>
-                </a>
+                </div>
             </li>
             <a class="img_logo link" href="./index.html">
                 <img src="../images/logo.svg"  alt="logo" width="102" height="124">
@@ -104,6 +104,22 @@
               <img  src="../images/logo.svg" alt="logo" width="105" height="128">
           </a>
       </footer>
-      </body>
-      </html>
-      
+      <div class="menu_body">
+        <div class="modal">
+            <div class="svg_modal">
+                <img class="modal_logo" src="../images/logo.svg"  alt="logo" width="105" height="128">
+                <svg  class="modal_cross" width="30" height="30">
+                    <use href="./images/symbol-defs.svg#icon-cross"></use>
+                </svg>
+            </div>
+            <ul class="list_burgermenu">
+                <a href="./menu.html" class="text_burgermenu">Меню</a>
+                <a href="./reviews.html" class="text_burgermenu">Залишити відгук</a>
+                <a href="./history.html" class="text_burgermenu">Про Cava Bar</a>
+                <a href="./location.html" class="text_burgermenu">Наші контакти</a>
+            </ul>
+        </div>
+    </div>
+   <script src="./js/burger_menu.js" ></script>
+</body>
+</html>
