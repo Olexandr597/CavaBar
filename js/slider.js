@@ -1,6 +1,6 @@
 
 var swiper = new Swiper(".mySwiper", {
-        // loop: true,
+        loop: true,
     // loopedSlides: 3,
     // autoplay: true,
     // autoplayspeed: 1000,
