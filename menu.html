@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- Підклюячення слайдеру з сервера  -->
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
@@ -40,7 +43,7 @@
                 <span class="line"></span>
             </div>
 
-        <section class="menu_top">
+        <section class="menu_top container">
 
             <div class="pacage">
                 <div class="pacage_text_box">
@@ -52,11 +55,129 @@
                 </svg>
             </div>
 
+            <h1 class="section_menu_title">Популярне</h1>
+<!-- 
+        <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="photo_menu"  src="./images/burger_with_veal.jpg" alt="Бургер" height="94" width="90">
+                    <div class="container_text_menu">
+                        <p class="title_dish max">Буржуйський бургер з телятиною та фрі</p>
+                        <p class="content_dish">Булочка бріош, теляча котлета, сир чедер, бекон, помідор, маринована синя цибуля, яйце смежене, цибуля кранч, бургерний соус + картопля фрі, соус</p>
+                        <p class="price_dish">220 грн</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img class="photo_menu"  src="./images/waffle_with_salmon.jpg" alt="" height="94" width="90">
+                    <div class="container_text_menu">
+                        <p class="title_dish">Вафля з лососем</p>
+                        <p class="content_dish">Вафля, мікс салату, лосось, авокадо, моцарела, чері, соус “Ранч”, кисло-солодкий соус, бальзамічний соус, кунжут</p>
+                        <p class="price_dish">175 грн</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img class="photo_menu"  src="./images/mango_passionate_cheesecakes.jpg" alt="" height="94" width="90">
+                    <div class="container_text_menu">
+                        <p class="title_dish">Сирники манго-маракуйя</p>
+                        <p class="content_dish">Сирники, мангова подушка, пюре манго-маракуя, сезонні фрукти</p>
+                        <p class="price_dish">140 грн</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img class="photo_menu"  src="./images/caesar_with_chicken.jpg" alt="" height="94" width="90">
+                    <div class="container_text_menu">
+                        <p class="title_dish">“Цезар” з куркою</p>
+                        <p class="content_dish">Салат айсберг, мікс салату, куряче філе, перепилині яйця, чері, грінки, соус цезар, пармезан, бальзамічний соус</p>
+                        <p class="price_dish">120 грн</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img  class="photo_menu" src="./images/waffle_with_salted_caramel.jpg" alt="" height="94" width="90">
+                    <div class="container_text_menu">
+                        <p class="title_dish">Вафля з солоною карамеллю</p>
+                        <p class="content_dish">Вафлі, карамельний крем, солона карамель, карамелізовані яблука, морозиво, арахіс</p>
+                        <p class="price_dish">135 грн</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img class="photo_menu"  src="./images/unagi_chicken_salad.jpg" alt="" height="94" width="90">
+                    <div class="container_text_menu">
+                        <p class="title_dish">“Норд” з лососем</p>
+                        <p class="content_dish">Мікс салату, червона риба, чері, моцарела, авокадо, бальзамічний соус, кунжут</p>
+                        <p class="price_dish">160 грн</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
 
+   <!-- Slider main container -->
+<div class="swiper mySwiper container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img class="photo_menu"  src="./images/burger_with_veal.jpg" alt="Бургер" height="94" width="90">
+        <div class="container_text_menu">
+            <p class="title_dish max">Буржуйський бургер з телятиною та фрі</p>
+            <p class="content_dish">Булочка бріош, теляча котлета, сир чедер, бекон, помідор, маринована синя цибуля, яйце смежене, цибуля кранч, бургерний соус + картопля фрі, соус</p>
+            <p class="price_dish">220 грн</p>
+        </div>
+    </div>
+      <div class="swiper-slide"><img class="photo_menu"  src="./images/waffle_with_salmon.jpg" alt="" height="94" width="90">
+        <div class="container_text_menu">
+            <p class="title_dish max">Вафля з лососем</p>
+            <p class="content_dish">Вафля, мікс салату, лосось, авокадо, моцарела, чері, соус “Ранч”, кисло-солодкий соус, бальзамічний соус, кунжут</p>
+            <p class="price_dish">175 грн</p>
+        </div>
+    </div>
+      <div class="swiper-slide"><img class="photo_menu"  src="./images/mango_passionate_cheesecakes.jpg" alt="" height="94" width="90">
+        <div class="container_text_menu">
+            <p class="title_dish max">Сирники манго-маракуйя</p>
+            <p class="content_dish">Сирники, мангова подушка, пюре манго-маракуя, сезонні фрукти</p>
+            <p class="price_dish">140 грн</p>
+        </div>
+    </div>
+      <div class="swiper-slide"><img class="photo_menu"  src="./images/caesar_with_chicken.jpg" alt="" height="94" width="90">
+        <div class="container_text_menu">
+            <p class="title_dish max">“Цезар” з куркою</p>
+            <p class="content_dish">Салат айсберг, мікс салату, куряче філе, перепилині яйця, чері, грінки, соус цезар, пармезан, бальзамічний соус</p>
+            <p class="price_dish">120 грн</p>
+        </div>
+    </div>
+      <div class="swiper-slide"> <img  class="photo_menu" src="./images/waffle_with_salted_caramel.jpg" alt="" height="94" width="90">
+        <div class="container_text_menu">
+            <p class="title_dish max">Вафля з солоною карамеллю</p>
+            <p class="content_dish">Вафлі, карамельний крем, солона карамель, карамелізовані яблука, морозиво, арахіс</p>
+            <p class="price_dish">135 грн</p>
+        </div>
+    </div>
+      <div class="swiper-slide"><img class="photo_menu"  src="./images/unagi_chicken_salad.jpg" alt="" height="94" width="90">
+        <div class="container_text_menu">
+            <p class="title_dish max">“Норд” з лососем</p>
+            <p class="content_dish">Мікс салату, червона риба, чері, моцарела, авокадо, бальзамічний соус, кунжут</p>
+            <p class="price_dish">160 грн</p>
+        </div>
+    </div>
+      
+    </div>
+    <!-- If we need pagination -->
+    <!-- <div class="swiper-pagination"></div> -->
+  
+    <!-- If we need navigation buttons -->
+    <!-- <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div> -->
+  
+    <!-- If we need scrollbar -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+  </div>
         </section>
 
         
         <span class="footer_span_menu"></span>
+        <!-- <div class="container_text_menu">
+            <p class=""></p>
+            <p class=""></p>
+            <p class=""></p>
+        </div> -->
     </main>
     <footer class="footer container">
     
@@ -112,5 +233,9 @@
         </div>
     </div>
    <script src="./js/burger_menu.js" ></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/slider.js" ></script> 
+  
 </body>
 </html>
