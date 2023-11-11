@@ -481,6 +481,7 @@ iframe{
     /* background-color: rgba(40, 40, 39, 0.40); */
     transition: all 0.3s ease 0s;
     overflow: auto;
+    z-index: 50;
 
 }
 .menu_body._active{
