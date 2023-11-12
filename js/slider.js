@@ -90,6 +90,6 @@ $(document).ready(function(){
     centerMode:true,
     variableWidth:true,
     // variableHight:true,
-    slidesToShow:2,
+    // slidesToShow:2,
   });
 });
