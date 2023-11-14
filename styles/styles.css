@@ -715,20 +715,30 @@ iframe{
     .slider_item_box{
       width: 358px;
     }
+    .slider_item_box.max_box{
+       height: 135px;
+      }
+        
       
   }
   @media screen and (min-width: 550px) {
       .slider_item_box{
         width: 500px;
       }
+      .slider_item_box.max_box{
+       height: 114px;
+      }
+        
    
     }
-  
+    /* .max_box */
 .photo_menu {
     border-radius: 22px;
     /* margin-right: 12px; */
 }
 .container_text_menu {
+    column-gap: normal;
+    display: grid;
 }
 .title_dish {
     color: var(--Dark-grey, #282827);
@@ -741,46 +751,60 @@ iframe{
     max-width: 236px;
     align-self: stretch;
     
-    margin-bottom: 7px;
+    /* margin-bottom: 100%; */
 
 
 }
+
 @media screen and (min-width: 375px) {
     .title_dish{
       width: 100%;
     }
       
   }
+  @media screen and (min-width: 550px) {
+    .title_dish{
+    max-width: none;    }
+ 
+  }
 .max_box {
-    height: 135px;
+    height: 1px;
 }
+
 
 .content_dish {
     max-width: 236px;
     max-height: 34px;
-    width: 236px;
+    /* width: 236px;
+    height: 34px; */
     color: var(--Dark-grey, #282827);
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 
     /* 
     overflow: scroll; */
-    text-overflow: ellipsis;
+    /* text-overflow: ellipsis; */
     overflow: hidden;
-    white-space: nowrap;
-    margin-bottom: 14px;
+    /* white-space: nowrap; */
+    /* margin-bottom: 14px; */
 
 
 }
-/* @media screen and (min-width: 550px) {
+@media screen and (max-width: 375px) {
+    .content_dish{
+      display: none;
+    }
+      
+  }
+@media screen and (min-width: 550px) {
     .content_dish{
 max-width: none;    }
  
-  } */
+  }
 .price_dish {
     color: var(--Dark-grey, #282827);
     font-family: Roboto;
@@ -878,20 +902,42 @@ max-width: none;    }
   @media screen and (min-width: 550px) {
       .menu_box{
         width: 500px;
+        /* height: 114px; */
       }
-   
+     
     }
     .menu_box.max_box{
-        height: 135px;
+        height: 114px;
     }
+    @media screen and (min-width: 375px) {
+        .menu_box.max_box{
+            height: 135px;
+        }
+       
+      }
+    @media screen and (min-width: 550px) {
+        .menu_box.max_box{
+            height: 114px;
+        }
+       
+      }
   .menu_section{
     margin-left: auto;
     margin-right: auto;
     padding-left: 0;
   }
-  .coffee{
+  /* .coffee{
     margin-top: 54px;
 }
 .coffee_1{
     margin-top: 16px;
+} */
+.dessert_text{
+   display: none;
 }
+@media screen and (min-width: 375px) {
+    .dessert_text{
+        display: inline;
+    }
+   
+  }
