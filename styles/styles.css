@@ -745,6 +745,12 @@ iframe{
 
 
 }
+@media screen and (min-width: 375px) {
+    .title_dish{
+      width: 100%;
+    }
+      
+  }
 .max_box {
     height: 135px;
 }
@@ -780,6 +786,8 @@ max-width: none;    }
     font-weight: 600;
     line-height: normal;
     margin-bottom: 0px;
+    margin-top: auto;
+    
 }
 /*--------------------------------------------------------MENU-SLIDER-SECOND-----------------------------------------*/
 
@@ -870,6 +878,9 @@ max-width: none;    }
       }
    
     }
+    .menu_box.max_box{
+        height: 135px;
+    }
   .menu_section{
     margin-left: auto;
     margin-right: auto;
@@ -877,4 +888,7 @@ max-width: none;    }
   }
   .coffee{
     margin-top: 54px;
+}
+.coffee_1{
+    margin-top: 16px;
 }
