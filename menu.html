@@ -1116,7 +1116,7 @@
                 <img class="photo_menu"  src="./images/dessert_7.jpg" alt="Морозиво класичне" height="94" width="90">
                 <div class="container_text_menu">
                     <p class="title_dish">Морозиво класичне</p>
-                    <p class="price_dish coffee">50 грн</p>
+                    <p class="price_dish">50 грн</p>
                 </div>
             </div>
         </li>
@@ -1125,7 +1125,7 @@
                 <img class="photo_menu"  src="./images/dessert_8.jpg" alt="Морозиво (карамельне, манго-маракуйя, шоколадне, малинове)" height="94" width="90">
                 <div class="container_text_menu">
                     <p class="title_dish">Морозиво <span class="dessert_text">(карамельне, манго-маракуйя, шоколадне, малинове)</span></p>
-                    <p class="price_dish coffee_1">60 грн</p>
+                    <p class="price_dish">60 грн</p>
                 </div>
             </div>
         </li>
@@ -1207,6 +1207,21 @@
             </ul>
         </div>
     </div>
+
+    <div class="nav">
+        <div class="categories"> 
+            <svg width="24" height="24">
+                <use  href="./images/symbol-defs.svg#icon-menu_right"></use>
+            </svg>
+            <p class="text_nav">Категорії</p>
+        </div>
+        <div id="arrowTop" class="arrow">
+            <svg width="24" height="24">
+                <use   href="./images/symbol-defs.svg#icon-arrow"></use>
+            </svg>
+        </div>
+      
+    </div>
    <script src="./js/burger_menu.js" ></script>
 
    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
@@ -1215,5 +1230,16 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
     <script src="./js/slider.js" ></script> 
   
+    <script>
+
+        arrowTop.onclick = function() {
+          window.scrollTo(pageXOffset, 0);
+          // після scrollTo відбудеться подія "scroll", тому стрілка автоматично сховається
+        };
+    
+        window.addEventListener('scroll', function() {
+          arrowTop.hidden = (pageYOffset < document.documentElement.clientHeight);
+        });
+      </script>
 </body>
 </html>
