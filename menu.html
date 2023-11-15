@@ -123,7 +123,7 @@
             </div>
        
  <section class="container" >
-        <div class="box_menu_title" > 
+        <div  id="coffee"  class="box_menu_title" > 
         <h1 class="section_menu_title">Кава</h1>
         </div>
      
@@ -328,7 +328,7 @@
     </li>
 </ul>
 
-    <div class="box_menu_title" > 
+    <div id="tea" class="box_menu_title" > 
             <h1 class="section_menu_title">Чай</h1>
     </div>
     <ul class="menu_section">
@@ -380,7 +380,7 @@
     </ul>
 
   
-    <div class="box_menu_title" > 
+    <div id="coffee_cold_drink" class="box_menu_title" > 
         <h1 class="section_menu_title">Кавові холодні напої</h1>
     </div>
 
@@ -468,7 +468,7 @@
         </li>
     </ul>
 
-    <div class="box_menu_title" > 
+    <div id="cold_drink" class="box_menu_title" > 
         <h1 class="section_menu_title">Холодні напої</h1>
     </div>
     
@@ -628,7 +628,7 @@
         </li>
     </ul>
     
-    <div class="box_menu_title" > 
+    <div id="breakfast" class="box_menu_title" > 
         <h1 class="section_menu_title">Сніданки</h1>
     </div>
 
@@ -664,7 +664,7 @@
             </div>    
         </li>
     </ul>
-    <div class="box_menu_title" > 
+    <div id="first_meal" class="box_menu_title" > 
         <h1 class="section_menu_title">Перші страви</h1>
     </div>
     <ul class="menu_section">
@@ -714,7 +714,7 @@
             </div>
         </div>
     </li> -->
-    <div class="box_menu_title" > 
+    <div id="cheesecake" class="box_menu_title" > 
         <h1 class="section_menu_title">Сирники</h1>
     </div>
     <ul class="menu_section">
@@ -747,7 +747,7 @@
             </div>
         </li>
     </ul>
-    <div class="box_menu_title" > 
+    <div id="pasta" class="box_menu_title" > 
         <h1 class="section_menu_title">Пасти</h1>
     </div>
     <ul class="menu_section">
@@ -793,7 +793,7 @@
         </li>
     </ul>
 
-    <div class="box_menu_title" > 
+    <div id="salads" class="box_menu_title" > 
         <h1 class="section_menu_title">Салати</h1>
     </div>
 
@@ -870,7 +870,7 @@
         </li>
         
     </ul>
-    <div class="box_menu_title" > 
+    <div id="burger" class="box_menu_title" > 
         <h1 class="section_menu_title">Бургер меню</h1>
     </div>
     <ul class="menu_section">
@@ -924,7 +924,7 @@
         </li>
         
     </ul>
-    <div class="box_menu_title" > 
+    <div id="pita" class="box_menu_title" > 
         <h1 class="section_menu_title">Лаваші</h1>
     </div>
     <ul class="menu_section">
@@ -949,7 +949,7 @@
             </div>
         </li>
     </ul>
-    <div class="box_menu_title" > 
+    <div id="bruschetta" class="box_menu_title" > 
         <h1 class="section_menu_title">Брускети</h1>
     </div>
     <ul class="menu_section">
@@ -975,7 +975,7 @@
         </li>
     </ul>
 
-    <div class="box_menu_title" > 
+    <div id="waffles" class="box_menu_title" > 
         <h1 class="section_menu_title">Бельгійські вафлі</h1>
     </div>
 
@@ -1052,7 +1052,7 @@
         </li> 
     </ul>
 
-    <div class="box_menu_title" > 
+    <div id="dessert" class="box_menu_title" > 
         <h1 class="section_menu_title">Десерти</h1>
     </div>
     
@@ -1209,9 +1209,9 @@
     </div>
 
     <div class="nav">
-        <div class="categories"> 
+        <div class="categories_nav"> 
             <svg width="24" height="24">
-                <use  href="./images/symbol-defs.svg#icon-menu_right"></use>
+                <use href="./images/symbol-defs.svg#icon-menu_right"></use>
             </svg>
             <p class="text_nav">Категорії</p>
         </div>
@@ -1222,13 +1222,62 @@
         </div>
       
     </div>
-   <script src="./js/burger_menu.js" ></script>
 
+    <div class="categories_nav_box">
+        <div class="nav_line"></div>
+            <ul class="nav_list">
+                <li>
+                    <a href="#coffee" class="nav_list_item A">Кава</a>
+                </li> 
+                <li>
+                    <a href="#tea" class="nav_list_item A">Чай</a>
+                </li>
+                <li> 
+                    <a href="#coffee_cold_drink" class="nav_list_item A">Кавові холодні напої</a>
+                </li>
+                <li>
+                    <a href="#cold_drink" class="nav_list_item A">Холодні напої</a>
+                </li>
+                <li>
+                    <a href="#breakfast" class="nav_list_item A">Сніданки</a>
+                </li>
+                <li>
+                    <a href="#first_meal" class="nav_list_item A">Перші страви</a>
+                </li>
+                <li> 
+                    <a href="#cheesecake" class="nav_list_item A">Сирники</a>
+                </li>
+                <li>
+                    <a href="#pasta" class="nav_list_item A">Пасти</a>
+                </li>
+                <li>
+                    <a href="#salads" class="nav_list_item A">Салати</a>
+                </li>
+                <li>
+                    <a href="#burger" class="nav_list_item A">Бургер меню</a>
+                </li>
+                <li>
+                    <a href="#pita" class="nav_list_item A">Лаваші</a>
+                </li>
+                <li> 
+                    <a href="#bruschetta" class="nav_list_item A">Брускети</a> 
+                </li>
+                <li> 
+                    <a href="#waffles" class="nav_list_item A">Бельгійські вафлі</a>
+                </li>
+                <li>
+                    <a href="#dessert" class="nav_list_item A"> Десерти</a>
+                </li>
+            </ul>
+    </div>
+    <script src="./js/burger_menu.js" ></script>
+    <script src="./js/pop_up_categories.js" ></script>
    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
    <script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
    <script src="./js/slick.min.js"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
     <script src="./js/slider.js" ></script> 
+   
   
     <script>
 
@@ -1241,5 +1290,14 @@
           arrowTop.hidden = (pageYOffset < document.documentElement.clientHeight);
         });
       </script>
+      <script>
+      $('a[href*="#"]').on('click', function (e) {
+        e.preventDefault();
+       
+        $('html, body').animate({
+          scrollTop: $($(this).attr('href')).offset().top
+        }, 500, 'linear');
+      });</script>
+      <script src="./js/pop_up_categories.js" ></script>
 </body>
 </html>

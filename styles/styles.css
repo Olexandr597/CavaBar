@@ -8,7 +8,9 @@ main{
 }
 ul {
    list-style-type: none;
+   padding: 0;
 }
+
 h1,
 h2,
 h3,
@@ -524,6 +526,7 @@ iframe{
     font-weight: 700;
     line-height: normal; 
     text-align: left;
+    padding-left: 20px;
 
 }
 /*--------------------------------------------------------MENU-----------------------------------------*/
@@ -938,7 +941,7 @@ iframe{
     bottom: 60px;
     right: 16px;
 }
-.categories {
+.categories_nav{
     display: flex;
     gap: 8px;
     align-items: center;
@@ -949,12 +952,6 @@ iframe{
    
     width: 140px;
     height: 48px;
-}
-.categories_svg{
-    /* width: 24px;
-    height: 24px;
-    padding: 12px; */
-   
 }
 .text_nav {
     color: var(--White, #FFFBFA);
@@ -976,5 +973,82 @@ iframe{
     /* text-align: center; */
     display: flex;
     justify-content: center;
+    
+}
+/**----------------------------------------------CATEGORIES-----------------------------------*/
+.categories_nav_box {
+    border-radius: 22px 22px 0px 0px;
+    background: var(--Dark-grey, #282827);
+    height: 588px;
+    /* padding-top: 20px; */
+    width: 100%;
+    min-width: 320px;
+    max-width: 768px;
+    z-index: 7;
+    position: fixed;
+    bottom: -650px;
+    left: 50%;
+    transform: translate(-50%, 0);
+   
+    transition: all 0.3s ease 0s;
+   
+
+}
+.categories_nav_box.active{
+bottom: 0;
+}
+.nav_line {
+    width: 64px;
+    height: 2px;
+    border-radius: 22px;
+    /* stroke-width: 3px; */
+    /* stroke:  */
+    background: var(--Light-grey, #ECECEC);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    /* padding: 0; */
+    overflow: hidden;
+
+
+}
+
+.nav_list {
+    height: 550px;
+    overflow: hidden;
+    overflow: scroll;
+ 
+}
+.nav_list_item {
+    color: var(--White, #FFFBFA);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    display: flex;
+    width: 290px;
+    height: 42px;
+    /* padding: 8px 0px; */
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+
+    border-radius: 22px;
+    background: var(--Middle-grey, #4E4E4D);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+    /* overflow: hidden;
+    overflow: scroll;
+   */
+
+}
+@media screen and (min-width:375px){
+    .nav_list_item{
+        width: 342px;
+    }
     
 }
