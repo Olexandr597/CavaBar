@@ -1,16 +1,3 @@
-// const iconCategories = document.querySelector('.categories_nav');
-// if (iconCategories) {
-//   const menuCategories = document.querySelector('.categories_nav_box');
-//   const iconCrossCategories = document.querySelector('.nav_line');
-//   iconCategories.addEventListener("click", function (e) {
-//     document.body.classList.toggle('_lock');
-//     iconCategories.classList.toggle('active');
-//     menuCategories.classList.toggle('active');
-//     // iconCross.classList.toggle('_active');
-
-
-//   });
-// }
 const iconCategories = document.querySelector('.categories_nav');
 if (iconCategories) {
   const menuCategories = document.querySelector('.categories_nav_box');
