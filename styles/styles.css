@@ -997,27 +997,35 @@ iframe{
 .categories_nav_box.active{
 bottom: 0;
 }
-.nav_line {
-    width: 64px;
-    height: 2px;
+.nav_line_el {
+    width: 128px;
+    height: 3px;
     border-radius: 22px;
-    /* stroke-width: 3px; */
-    /* stroke:  */
-    background: var(--Light-grey, #ECECEC);
+    background:  var(--Light-grey, #ECECEC);
+   
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 24px;
-    /* padding: 0; */
-    overflow: hidden;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+  
+    display: flex; 
+  align-items: center
 
+   /* display: flex;
+    align-items: center;
+    justify-content: center; */
 
 }
-
+.nav_line{
+    height: 44px;
+    display: flex; 
+    align-items: center
+}
 .nav_list {
     height: 550px;
     overflow: hidden;
     overflow: scroll;
+    margin-top: 0;
  
 }
 .nav_list_item {
