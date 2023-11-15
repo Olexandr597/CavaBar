@@ -784,9 +784,9 @@ iframe{
     font-weight: 400;
     line-height: normal;
     /* text-transform: lowercase; */
-
+    overflow: scroll;
     /* 
-    overflow: scroll; */
+    */
     /* text-overflow: ellipsis; */
     overflow: hidden;
     /* white-space: nowrap; */
