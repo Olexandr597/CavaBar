@@ -791,15 +791,16 @@ iframe{
     overflow: hidden;
     /* white-space: nowrap; */
     /* margin-bottom: 14px; */
+    display: none;
 
 
 }
-/* @media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) {
     .content_dish{
-      display: none;
+      display: inline;
     }
       
-  } */
+  }
 @media screen and (min-width: 550px) {
     .content_dish{
 max-width: none;    }
