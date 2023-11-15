@@ -768,7 +768,7 @@ iframe{
  
   }
 .max_box {
-    height: 1px;
+    height: 114px;
 }
 
 
@@ -794,12 +794,12 @@ iframe{
 
 
 }
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
     .content_dish{
       display: none;
     }
       
-  }
+  } */
 @media screen and (min-width: 550px) {
     .content_dish{
 max-width: none;    }
