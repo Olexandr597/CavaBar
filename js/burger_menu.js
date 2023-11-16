@@ -1,4 +1,7 @@
-const iconMenu = document.querySelector('.menu_icon');
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Ваш код тут
+  const iconMenu = document.querySelector('.menu_icon');
 if (iconMenu) {
   const menuBody = document.querySelector('.menu_body');
   const iconCross = document.querySelector('.modal_cross');
@@ -24,3 +27,5 @@ if (iconCross) {
   });
 }
 
+
+});

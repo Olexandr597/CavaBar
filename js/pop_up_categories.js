@@ -1,3 +1,4 @@
+
 const iconCategories = document.querySelector('.categories_nav');
 if (iconCategories) {
   const menuCategories = document.querySelector('.categories_nav_box');
