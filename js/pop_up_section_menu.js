@@ -67,7 +67,7 @@
 //   }
 // }
 
-for (let i = 1; i <= 9; i++) {
+for (let i = 1; i <= 16; i++) {
   const iconPopup = document.querySelector(`.coffee_${i}`);
   const menuPopup = document.querySelector(`.coffee_popup_${i}`);
 
