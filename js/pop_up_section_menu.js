@@ -30,7 +30,7 @@
 //     }
 //   });
 // }
-
+document.addEventListener("DOMContentLoaded", function() {
 for (let i = 1; i <= 9; i++) {
   const iconPopup = document.querySelector(`.coffee_${i}`);
   const menuPopup = document.querySelector(`.coffee_popup_${i}`);
@@ -66,3 +66,4 @@ for (let i = 1; i <= 9; i++) {
     });
   }
 }
+});
