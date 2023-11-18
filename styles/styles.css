@@ -1094,7 +1094,7 @@ bottom: 0;
 
 .photo_menu_pop_up {
     width: 290px;
-    height: 290px;
+    height: 268px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -1106,7 +1106,7 @@ bottom: 0;
 @media screen and (min-width:375px){
     .photo_menu_pop_up{
         width: 342px;
-        height: 342px;
+        height: 314px;
     }
     
 }
