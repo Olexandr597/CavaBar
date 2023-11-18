@@ -72,7 +72,7 @@ for (let i = 1; i <= 92; i++) {
   const menuPopup = document.querySelector(`.coffee_popup_${i}`);
 
   if (iconPopup && menuPopup) {
-    const iconCrossPopup = document.querySelector('.nav_line');
+    const iconCrossPopup = document.querySelector('.pop_up_menu');
     let startY;
 
     // Відкривання попапа при кліці
