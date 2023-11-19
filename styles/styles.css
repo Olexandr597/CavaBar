@@ -1097,7 +1097,7 @@ bottom: 0;
     display: block;
     border-radius: 22px;
     margin-bottom: 20px;
-    overflow: scroll;
+    overflow: hidden;
 
 }
 @media screen and (min-width:375px){
