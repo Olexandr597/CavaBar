@@ -1,3 +1,4 @@
+let currentlyOpenPopup = null;
 
 for (let i = 1; i <= 92; i++) {
   const iconPopup = document.querySelector(`.coffee_${i}`);
@@ -9,9 +10,42 @@ for (let i = 1; i <= 92; i++) {
 
     // Відкривання попапа при кліці
     iconPopup.addEventListener("click", function (e) {
+      // Close the previously open popup
+      if (currentlyOpenPopup) {
+        currentlyOpenPopup.iconPopup.classList.remove('active');
+        currentlyOpenPopup.menuPopup.classList.remove('active');
+        currentlyOpenPopup = null;
+        
+        // Remove the lock class after closing the popup
+        document.body.classList.remove('_lock');
+      }
+
+      // Open the current popup
       document.body.classList.toggle('_lock');
       iconPopup.classList.toggle('active');
       menuPopup.classList.toggle('active');
+
+      // Update the currently open popup
+      currentlyOpenPopup = {
+        iconPopup: iconPopup,
+        menuPopup: menuPopup
+      };
+
+      // Stop the click event from propagating to the document body
+      e.stopPropagation();
+    });
+
+    // Закриття попапа при кліці в межах екрану (поза попапом)
+    document.body.addEventListener('click', function () {
+      // Close the currently open popup
+      if (currentlyOpenPopup) {
+        currentlyOpenPopup.iconPopup.classList.remove('active');
+        currentlyOpenPopup.menuPopup.classList.remove('active');
+        currentlyOpenPopup = null;
+        
+        // Remove the lock class after closing the popup
+        document.body.classList.remove('_lock');
+      }
     });
 
     // Закриття попапа при свайпі вниз
@@ -34,8 +68,13 @@ for (let i = 1; i <= 92; i++) {
           document.body.classList.remove('_lock');
         }, 500);
 
-        iconPopup.classList.remove('active');
-        menuPopup.classList.remove('active');
+        // Close the currently open popup
+        if (currentlyOpenPopup) {
+          currentlyOpenPopup.iconPopup.classList.remove('active');
+          currentlyOpenPopup.menuPopup.classList.remove('active');
+          currentlyOpenPopup = null;
+        }
+
         startY = null;
       }
     });
