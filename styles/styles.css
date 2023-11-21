@@ -740,6 +740,8 @@ iframe{
     /* .max_box */
 .photo_menu {
     border-radius: 22px;
+    height: 90px;
+    width: 94px;
     /* margin-right: 12px; */
 }
 .container_text_menu {
