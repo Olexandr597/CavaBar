@@ -544,7 +544,7 @@ const coldDrinks = [
       img: "./images/dessert_popup_7.webp",
     },
     {
-      name: "Морозиво (карамельне, манго-маракуйя, шоколадне, малинове)",
+      name: "Морозиво (в асортименті)",
       price: "60 грн",
       img: "./images/dessert_popup_8.webp",
     },
