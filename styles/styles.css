@@ -1062,34 +1062,7 @@ bottom: 0;
     
 }
 /*===========================================POP_UP======================================================*/
-/* .popup  {
-    box-sizing: border-box;
-    width: 100%;
-    min-width: 320px;
-    max-width: 768px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 22px 22px 0px 0px;
-    background: var(--Dark-grey, #282827);
-    height: 588px;
-    /* outline: 1px solid red; 
 
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: -101%;
-    margin: 0 auto;
-    transition: all 0.5s ease 0s;
-    padding-left: 24px;
-    padding-right: 24px;
-    z-index: 10;
- 
-}
-.popup.active{
-    bottom: 0;
-} 
- */
- 
 .popup {
     box-sizing: border-box;
     width: 100%;
@@ -1099,7 +1072,7 @@ bottom: 0;
     background: var(--Dark-grey, #282827);
     height: 588px;
 
-   position: fixed;
+    position: fixed;
     left: 0;
     right: 0;
     bottom: -101%;
