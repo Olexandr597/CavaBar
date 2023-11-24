@@ -562,7 +562,7 @@ const coldDrinks = [
     
       if (elem.description) {
         popup.innerHTML = `
-       <span class="nav_line_el"></span>
+        <div class="nav_line"><span class="nav_line_el"></span></div>
           <img class="photo_menu_pop_up" src=${elem.img} alt="">
           <div class="container_text_menu">
             <p class="title_dish_pop_up">${elem.name}</p>
@@ -573,7 +573,7 @@ const coldDrinks = [
         `;
       } else {
         popup.innerHTML = `
-        <span class="nav_line_el"></span>
+        <div class="nav_line"><span class="nav_line_el"></span></div>
           <img class="photo_menu_pop_up" src=${elem.img} alt="">
           <div class="container_text_menu">
             <p class="title_dish_pop_up">${elem.name}</p>
