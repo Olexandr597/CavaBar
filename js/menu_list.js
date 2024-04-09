@@ -158,7 +158,7 @@ const coldDrinksMenu = [
     img: "./images/coffee_cold_drink_popup_6.webp",
   },
   {
-    name: "Джміль на апельсиновому фреші",
+    name: "Зимний джміль на апельсиновому фреші",
     price: "90 грн",
     img: "./images/orange_fresh_bumblebee.webp",
   },
