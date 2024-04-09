@@ -54,7 +54,7 @@ const mains = [
     },
     {
         name: "Какао",
-        price: "40 грн",
+        price: "45 грн",
         img: "./images/coffee_popup_8.webp",
     },
     {
@@ -150,7 +150,7 @@ const coldDrinksMenu = [
     },
     {
         name: "Зимний джміль",
-        price: "55 грн",
+        price: "60 грн",
         img: "./images/coffee_cold_drink_popup_5.webp",
     },
     {
@@ -160,12 +160,12 @@ const coldDrinksMenu = [
     },
     {
         name: "Зимне мокачино",
-        price: "65 грн",
+        price: "70 грн",
         img: "./images/coffee_cold_drink_popup_7.webp",
     },
     {
         name: "М’ятне какао",
-        price: "50 грн",
+        price: "55 грн",
         img: "./images/coffee_cold_drink_popup_8.webp",
     },
     {
@@ -179,32 +179,32 @@ const coldDrinks = [
     {
       
       name: "Мохіто класичне",
-      price: "55 грн",
+      price: "60 грн",
       img: "./images/cold_drink_popup_1.webp",
     },
     {
       name: "Мохіто з полуницею",
-      price: "60 грн",
+      price: "65 грн",
       img: "./images/cold_drink_popup_2.webp",
     },
     {
       name: "Мохіто з смородиною",
-      price: "60 грн",
+      price: "65 грн",
       img: "./images/cold_drink_popup_3.webp",
     },
     {
       name: "Мохіто з малиною",
-      price: "60 грн",
+      price: "65 грн",
       img: "./images/cold_drink_popup_4.webp",
     },
     {
       name: "Коктейль манго-маракуйя",
-      price: "65 грн",
+      price: "70 грн",
       img: "./images/cold_drink_popup_5.webp",
     },
     {
       name: "Коктейль піна колада",
-      price: "65 грн",
+      price: "70 грн",
       img: "./images/cold_drink_popup_6.webp",
     },
     {
