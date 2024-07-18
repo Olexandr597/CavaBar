@@ -644,13 +644,13 @@ const dessertMenu = [
 	},
 	{
 		name: 'Морозиво класичне',
-		price: '50 грн',
+		price: '65 грн',
 		img: './images/dessert_popup_7.webp',
 		weight: '150',
 	},
 	{
 		name: 'Морозиво (в асортименті)',
-		price: '60 грн',
+		price: '75 грн',
 		img: './images/dessert_popup_8.webp',
 		weight: '200 г',
 	},
