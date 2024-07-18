@@ -146,6 +146,7 @@ const coldDrinksMenu = [
 		name: 'Еспресо тонік',
 		price: '65 грн',
 		img: './images/coffee_cold_drink_popup_4.webp',
+		weight: '450 г',
 	},
 	{
 		name: 'Зимний джміль',
@@ -289,6 +290,7 @@ const breakfastMenu = [
 			'Мікс салату, яєчня, цибуля кранч, сир хохланд, ковбаска, чері, тостерний хліб, соуси',
 		price: '140 грн',
 		img: './images/breakfast_popup_1.webp',
+		weight: '350 г',
 	},
 	{
 		name: 'Французький сніданок',
@@ -296,6 +298,7 @@ const breakfastMenu = [
 			'Мікс салату, яйце пашот, сир хохланд, чері, червона риба, авокадо, круасан/тостовий хліб',
 		price: '170 грн',
 		img: './images/breakfast_popup_2.webp',
+		weight: '320 г',
 	},
 	{
 		name: 'Сніданок з куркою',
@@ -303,10 +306,12 @@ const breakfastMenu = [
 			'Мікс салату, скрамбл, цибуля кранч, сир хохланд, печена курка, чері, тостерний хліб, соуси',
 		price: '140 грн',
 		img: './images/breakfast_popup_3.webp',
+		weight: '350 г',
 	},
 	{
 		name: 'Шакшука',
 		price: '140 грн',
+		weight: '350 г',
 	},
 ]
 
@@ -315,21 +320,25 @@ const firstMealMenu = [
 		name: 'Сирний крем-суп',
 		price: '85 грн',
 		img: './images/first_meal_popup_1.webp',
+		weight: '250 г',
 	},
 	{
 		name: 'Грибний крем-суп',
 		price: '80 грн',
 		img: './images/first_meal_popup_2.webp',
+		weight: '250 г',
 	},
 	{
 		name: 'Крем-суп з броколі',
 		price: '70 грн',
 		img: './images/first_meal_popup_3.webp',
+		weight: '250 г',
 	},
 	{
 		name: 'Крем-суп з сочевицею',
 		price: '70 грн',
 		img: './images/first_meal_popup_4.webp',
+		weight: '250 г',
 	},
 ]
 
@@ -339,12 +348,14 @@ const cheesecakeMenu = [
 		description: 'Сирники, мангова подушка, пюре манго-маракуя, сезонні фрукти',
 		price: '145 грн',
 		img: './images/cheesecake_popup_1.webp',
+		weight: '220 г',
 	},
 	{
 		name: 'Сирники з малиною',
 		description: 'Сирники, малинова подушка, пюре з малини, сезонні фрукти',
 		price: '135 грн',
 		img: './images/cheesecake_popup_2.webp',
+		weight: '220 г ',
 	},
 	{
 		name: 'Сирники з карамеллю',
@@ -352,6 +363,7 @@ const cheesecakeMenu = [
 			'Сирники, карамельна подушка, солона карамель, карамелізовані яблука, арахіс',
 		price: '135 грн',
 		img: './images/cheesecake_popup_3.webp',
+		weight: '220 г ',
 	},
 ]
 
@@ -362,12 +374,14 @@ const pastaMenu = [
 			'Паста, шпинат, моцарела, вершки, цибуля, песто, пармезан, чері',
 		price: '140 грн',
 		img: './images/pasta_popup_1.webp',
+		weight: '350 г',
 	},
 	{
 		name: 'Паста карбонара',
 		description: 'Паста, бекон, вершки, яйце, пармезан',
 		price: '140 грн',
 		img: './images/pasta_popup_2.webp',
+		weight: ' 350 г',
 	},
 	{
 		name: 'Паста томатна з куркою',
@@ -375,17 +389,20 @@ const pastaMenu = [
 			'Паста, куряче філе, томатна паста, вершки, вино, в’ялені томати, цибуля, часник, пармезан, чері',
 		price: '150 грн',
 		img: './images/pasta_popup_3.webp',
+		weight: '390 г ',
 	},
 	{
 		name: 'Лінгвіні з креветками',
 		description: 'Паста, креветки, помідори, вершки, пармезан',
 		price: '190 грн',
 		img: './images/pasta_popup_4.webp',
+		weight: '350 г',
 	},
 	{
 		name: 'Паста з грибами та куркою',
 		price: '150 грн',
 		// img: './images/pasta_popup_4.webp',
+		weight: '400 г ',
 	},
 ]
 
@@ -396,6 +413,7 @@ const saladMenu = [
 			'Салат айсберг, мікс салату, куряче філе, перепилині яйця, чері, грінки, соус цезар, пармезан, бальзамічний соус',
 		price: '140 грн',
 		img: './images/salads_popup_1.webp',
+		weight: '230 г ',
 	},
 	{
 		name: '“Цезар” з креветкою',
@@ -403,6 +421,7 @@ const saladMenu = [
 			'Салат айсберг, мікс салату, креветки, перепилині яйця, чері, грінки, соус цезар, пармезан, бальзамічний соус',
 		price: '170 грн',
 		img: './images/salads_popup_2.webp',
+		weight: '220 г ',
 	},
 	{
 		name: '“Норд” з лососем',
@@ -410,6 +429,7 @@ const saladMenu = [
 			'Мікс салату, червона риба, чері, моцарела, авокадо, бальзамічний соус, кунжут',
 		price: '180 грн',
 		img: './images/salads_popup_3.webp',
+		weight: '230 г',
 	},
 	{
 		name: '“Прошуто”',
@@ -417,6 +437,7 @@ const saladMenu = [
 			'Мікс салату, хамон, в’ялені помідори, чері, синя цибуля, оливкова олія, бальзамічний соус, кунжут',
 		price: '160 грн',
 		img: './images/salads_popup_4.webp',
+		weight: '180 г ',
 	},
 	{
 		name: 'Салат з куркою унагі',
@@ -424,6 +445,7 @@ const saladMenu = [
 			'Мікс салату, куряче філе в соусі унагі, чері, перець солодкий, бальзамічний соус, кунжут',
 		price: '125 грн',
 		img: './images/salads_popup_5.webp',
+		weight: '190 г',
 	},
 	{
 		name: 'Салат з яйцем пашот',
@@ -431,6 +453,7 @@ const saladMenu = [
 			'Мікс салату, копчена курка, яйце пашот, в’ялені томати, каперси, тостовий хліб, соус з тунця, пармезан, кунжут',
 		price: '170 грн',
 		img: './images/salads_popup_6.webp',
+		weight: '230 г ',
 	},
 	{
 		name: 'Салат з тунцем та авокадо',
@@ -438,6 +461,7 @@ const saladMenu = [
 			'Мікс салату, салат айсберг, тунець, авокадо, чері, синя цибуля, гірчичний соус',
 		price: '170 грн',
 		img: './images/salads_popup_7.webp',
+		weight: '230 г ',
 	},
 ]
 
@@ -448,6 +472,7 @@ const burgerMenu = [
 			'Булочка бріош, теляча котлета, сир чедер, бекон, помідор, маринована синя цибуля, яйце смажене, цибуля кранч, бургерний соус + картопля фрі, соус',
 		price: '225 грн',
 		img: './images/burger_popup_1.webp',
+		weight: '700 г ',
 	},
 	{
 		name: 'Не просто бургер з куркою та фрі',
@@ -455,6 +480,7 @@ const burgerMenu = [
 			'Булочка бріош, куряча котлета, сир чедер, салат айсберг, помідор, квашений огірок, соус “Ранч” + картопля фрі, соус',
 		price: '195 грн',
 		img: './images/burger_popup_2.webp',
+		weight: '600 г',
 	},
 	{
 		name: 'Бургер “Біг Тейсті”',
@@ -462,16 +488,19 @@ const burgerMenu = [
 			'Булочка бріош, салат айсберг, котлета теляча, сир гауда, цибуля, квашений огірок, помідор, соус “Біг Тейсті” + картопля фрі, соус',
 		price: '220 грн',
 		img: './images/burger_popup_3.webp',
+		weight: '600 г',
 	},
 	{
 		name: 'Просто картопля фрі',
 		price: '70 грн',
 		img: './images/burger_popup_4.webp',
+		weight: '185 г',
 	},
 	{
 		name: 'Нагетси',
 		price: '85 грн',
 		img: './images/burger_popup_5.webp',
+		weight: '235 г ',
 	},
 ]
 
@@ -482,12 +511,14 @@ const pitaMenu = [
 			'Лаваш, курка запечена, помідор, салат, огірок, сир, соус сметанковий',
 		price: '150 грн',
 		img: './images/pita_popup_1.webp',
+		weight: '500 г ',
 	},
 	{
 		name: 'Лаваш з тунцем',
 		description: 'Лаваш, тунець, кукурудза, помідор, огірок, сир, соус з тунця',
 		price: '160 грн',
 		img: './images/pita_popup_2.webp',
+		weight: '500 г',
 	},
 ]
 
@@ -498,6 +529,7 @@ const bruschettaMenu = [
 			'Тост, мікс салату, авокадо, помідор, червона риба, моцарела, яйце пашот, бальзамічний соус',
 		price: '200 грн',
 		img: './images/bruschetta_popup_1.webp',
+		weight: '430 г',
 	},
 	{
 		name: 'Брускет з хамоном та яйцем пашот',
@@ -505,6 +537,7 @@ const bruschettaMenu = [
 			'Тост, мікс салату, хамон, помідор, моцарела, яйце пашот, песто, в‘ялений томат, бальзамічний соус',
 		price: '190 грн',
 		img: './images/bruschetta_popup_2.webp',
+		weight: '380 г',
 	},
 ]
 
@@ -515,6 +548,7 @@ const waffleMenu = [
 			'Вафля, мікс салату, курка печена, сир чедер, чері, огірок, соус “Ранч”, кисло-солодкий соус, бальзамічний соус, кунжут',
 		price: '155 грн',
 		img: './images/waffles_popup_1.webp',
+		weight: '365 г ',
 	},
 	{
 		name: 'Вафля з лососем',
@@ -522,6 +556,7 @@ const waffleMenu = [
 			'Вафля, мікс салату, лосось, авокадо, моцарела, чері, соус “Ранч”, кисло-солодкий соус, бальзамічний соус, кунжут',
 		price: '195 грн',
 		img: './images/waffles_popup_2.webp',
+		weight: '390 г',
 	},
 	{
 		name: 'Вафля з тунцем та яйцем пашот',
@@ -529,34 +564,7 @@ const waffleMenu = [
 			'Вафля, мікс салату, тунець, яйце пашот, огірок, чері, соус “Тартар”, соус з тунця, бальзамічний соус, кунжут',
 		price: '185 грн',
 		img: './images/waffles_popup_3.webp',
-	},
-	{
-		name: 'Вафля манго-маракуйя',
-		description:
-			'Вафля, манговий крем, пюре манго-маракуя, морозиво, сезонні фрукти',
-		price: '150 грн',
-		img: './images/waffles_popup_4.webp',
-	},
-	{
-		name: 'Вафля з малиною',
-		description:
-			'Вафля, малиновий крем, пюре з малини, морозиво, сезонні фрукти, крихти орео',
-		price: '140 грн',
-		img: './images/waffles_popup_5.webp',
-	},
-	{
-		name: 'Вафля з солоною карамеллю',
-		description:
-			'Вафлі, карамельний крем, солона карамель, карамелізовані яблука, морозиво, арахіс',
-		price: '145 грн',
-		img: './images/waffles_popup_6.webp',
-	},
-	{
-		name: 'Вафля з нутеллою',
-		description:
-			'Вафля, крем з нутелли, нутелла, морозиво, сезонні фрукти, арахіс',
-		price: '150 грн',
-		img: './images/waffles_popup_7.webp',
+		weight: '350 г',
 	},
 	{
 		name: 'Вафля з жульєном',
@@ -564,6 +572,39 @@ const waffleMenu = [
 		// 	'Вафля, крем з нутелли, нутелла, морозиво, сезонні фрукти, арахіс',
 		price: '185 грн',
 		// img: './images/waffles_popup_7.webp',
+		weight: '530 г ',
+	},
+	{
+		name: 'Вафля манго-маракуйя',
+		description:
+			'Вафля, манговий крем, пюре манго-маракуя, морозиво, сезонні фрукти',
+		price: '150 грн',
+		img: './images/waffles_popup_4.webp',
+		weight: '300 г',
+	},
+	{
+		name: 'Вафля з малиною',
+		description:
+			'Вафля, малиновий крем, пюре з малини, морозиво, сезонні фрукти, крихти орео',
+		price: '140 грн',
+		img: './images/waffles_popup_5.webp',
+		weight: '330 г',
+	},
+	{
+		name: 'Вафля з солоною карамеллю',
+		description:
+			'Вафлі, карамельний крем, солона карамель, карамелізовані яблука, морозиво, арахіс',
+		price: '145 грн',
+		img: './images/waffles_popup_6.webp',
+		weight: '340 г',
+	},
+	{
+		name: 'Вафля з нутеллою',
+		description:
+			'Вафля, крем з нутелли, нутелла, морозиво, сезонні фрукти, арахіс',
+		price: '150 грн',
+		img: './images/waffles_popup_7.webp',
+		weight: '360 г',
 	},
 ]
 
@@ -572,11 +613,13 @@ const dessertMenu = [
 		name: 'Чізкейк',
 		price: '90 грн',
 		img: './images/dessert_popup_1.webp',
+		weight: '220 г',
 	},
 	{
 		name: 'Маренговий рулет',
 		price: '70 грн',
 		img: './images/dessert_popup_2.webp',
+		weight: '100 г',
 	},
 	{
 		name: 'Макарун',
@@ -587,6 +630,7 @@ const dessertMenu = [
 		name: 'Яблучний штрудель',
 		price: '75 грн',
 		img: './images/dessert_popup_4.webp',
+		weight: '200 г',
 	},
 	{
 		name: 'Мусовий десерт',
@@ -602,11 +646,13 @@ const dessertMenu = [
 		name: 'Морозиво класичне',
 		price: '50 грн',
 		img: './images/dessert_popup_7.webp',
+		weight: '150',
 	},
 	{
 		name: 'Морозиво (в асортименті)',
 		price: '60 грн',
 		img: './images/dessert_popup_8.webp',
+		weight: '200 г',
 	},
 ]
 
@@ -627,6 +673,8 @@ function showPopup(elem) {
             <p class="title_dish_pop_up">${elem.name}</p>
             <p class="content_dish_pop_up">${elem.description}</p>
             <p class="price_dish_pop_up">${elem.price}</p>
+						<p>
+					
            
           </div>
         `
