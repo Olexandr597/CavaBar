@@ -310,6 +310,7 @@ const breakfastMenu = [
 	},
 	{
 		name: 'Шакшука',
+		description: 'Помідори, перець , цибуля, яйця пашот і хліб',
 		price: '140 грн',
 		weight: '350 г',
 	},
@@ -401,6 +402,7 @@ const pastaMenu = [
 	{
 		name: 'Паста з грибами та куркою',
 		price: '150 грн',
+		description: 'Паста , куряче філе, гриби,вершки,цибуля, часник,пармезан,',
 		// img: './images/pasta_popup_4.webp',
 		weight: '400 г ',
 	},
@@ -568,8 +570,8 @@ const waffleMenu = [
 	},
 	{
 		name: 'Вафля з жульєном',
-		// description:
-		// 	'Вафля, крем з нутелли, нутелла, морозиво, сезонні фрукти, арахіс',
+		description:
+			'Вафля,мікс салату,жульєн(гриби і курка), чері, огірок,соус «Ранч»,кисло-солодкий соус, кунжут',
 		price: '185 грн',
 		// img: './images/waffles_popup_7.webp',
 		weight: '530 г ',
@@ -646,7 +648,7 @@ const dessertMenu = [
 		name: 'Морозиво класичне',
 		price: '65 грн',
 		img: './images/dessert_popup_7.webp',
-		weight: '150',
+		weight: '150 г',
 	},
 	{
 		name: 'Морозиво (в асортименті)',
@@ -673,7 +675,7 @@ function showPopup(elem) {
             <p class="title_dish_pop_up">${elem.name}</p>
             <p class="content_dish_pop_up">${elem.description}</p>
             <p class="price_dish_pop_up">${elem.price}</p>
-						<p>
+						<p class="weight_items">${elem.weight}</p>
 					
            
           </div>
@@ -685,6 +687,7 @@ function showPopup(elem) {
           <div class="container_text_menu">
             <p class="title_dish_pop_up">${elem.name}</p>
             <p class="price_dish_pop_up">${elem.price}</p>
+						<p class="weight_items">${elem.weight}</p>
            
           </div>
         `
@@ -763,21 +766,40 @@ const showArray = (array, mm) => {
 		if (elem.description) {
 			el.innerHTML = `
           <img class="photo_menu" src=${elem.img} alt="">
+					<div class="box_content">
           <div class="container_text_menu">
             <p class="title_dish">${elem.name}</p>
             <p class="content_dish">${elem.description}</p>
-            <p class="price_dish">${elem.price}</p>
+						 </div>
+             <div class="price_box">
+					  <p class="price_dish">${elem.price}</p>
+						<p class="weight_items">${elem.weight}</p>
+						</div>
            
-          </div>
+         
+        `
+		} else if (elem.weight) {
+			el.innerHTML = `
+          <img class="photo_menu" src=${elem.img} alt="">
+          <div class="box_content">
+          <div class="container_text_menu">
+            <p class="title_dish">${elem.name}</p>
+						 </div>
+             <div class="price_box">
+					  <p class="price_dish">${elem.price}</p>
+						<p class="weight_items">${elem.weight}</p>
+						</div>
         `
 		} else {
 			el.innerHTML = `
           <img class="photo_menu" src=${elem.img} alt="">
+         <div class="box_content">
           <div class="container_text_menu">
             <p class="title_dish">${elem.name}</p>
-            <p class="price_dish">${elem.price}</p>
-           
-          </div>
+						 </div>
+             <div class="price_box">
+					  <p class="price_dish">${elem.price}</p>
+						</div>
         `
 		}
 
