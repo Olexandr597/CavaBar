@@ -133,6 +133,16 @@ const coldDrinksMenu = [
 		img: './images/coffee_cold_drink_popup_1.webp',
 	},
 	{
+		name: 'Айс-матча',
+		price: '80 грн',
+		img: '../images/айс_матча.webp',
+	},
+	{
+		name: 'Айс-матча з манго та маракуєю',
+		price: '90 грн',
+		img: '../images/айс-матча_маракуйя.webp',
+	},
+	{
 		name: 'Афогато',
 		price: '60 грн',
 		img: './images/coffee_cold_drink_popup_2.webp',
@@ -146,7 +156,6 @@ const coldDrinksMenu = [
 		name: 'Еспресо тонік',
 		price: '65 грн',
 		img: './images/coffee_cold_drink_popup_4.webp',
-		weight: '450 г',
 	},
 	{
 		name: 'Зимний джміль',
@@ -204,12 +213,12 @@ const coldDrinks = [
 	{
 		name: 'Кавун',
 		price: '70 грн',
-		// img: '',
+		img: '../images/кавун.webp',
 	},
 	{
 		name: 'Лавандове мохіто',
 		price: '60 грн',
-		// img: './images/coffee_cold_drink_popup_9.webp',
+		img: '../images/лавандове.webp',
 	},
 	{
 		name: 'Коктейль манго-маракуйя',
@@ -312,6 +321,7 @@ const breakfastMenu = [
 		name: 'Шакшука',
 		description: 'Помідори, перець , цибуля, яйця пашот і хліб',
 		price: '140 грн',
+		img: '../images/шакшука.webp',
 		weight: '350 г',
 	},
 ]
@@ -403,7 +413,7 @@ const pastaMenu = [
 		name: 'Паста з грибами та куркою',
 		price: '150 грн',
 		description: 'Паста , куряче філе, гриби,вершки,цибуля, часник,пармезан,',
-		// img: './images/pasta_popup_4.webp',
+		img: '../images/паста-гриби+курка.webp',
 		weight: '400 г ',
 	},
 ]
@@ -573,7 +583,7 @@ const waffleMenu = [
 		description:
 			'Вафля,мікс салату,жульєн(гриби і курка), чері, огірок,соус «Ранч»,кисло-солодкий соус, кунжут',
 		price: '185 грн',
-		// img: './images/waffles_popup_7.webp',
+		img: '../images/жульєн.webp',
 		weight: '530 г ',
 	},
 	{

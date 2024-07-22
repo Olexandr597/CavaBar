@@ -702,7 +702,7 @@ iframe {
 	font-family: Roboto;
 	font-size: 16px;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 500;
 	line-height: normal;
 	left: 0;
 }
@@ -716,7 +716,7 @@ iframe {
 
 	max-width: 236px;
 	align-self: stretch;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 
 	/* margin-bottom: 100%; */
 }
