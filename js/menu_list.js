@@ -684,20 +684,35 @@ function showPopup(elem) {
           <div class="container_text_menu">
             <p class="title_dish_pop_up">${elem.name}</p>
             <p class="content_dish_pop_up">${elem.description}</p>
+						<div class="weight_box_pop_up">
             <p class="price_dish_pop_up">${elem.price}</p>
-						<p class="weight_items">${elem.weight}</p>
-					
+						<p class="weight_dish_pop_up ">${elem.weight}</p>
+					</div>
            
           </div>
         `
+		} else if (elem.weight) {
+			popup.innerHTML = `
+			<div class="nav_line"><span class="nav_line_el"></span></div>
+				<img class="photo_menu_pop_up" src=${elem.img} alt="">
+				<div class="container_text_menu">
+					<p class="title_dish_pop_up">${elem.name}</p>
+					<div class="weight_box_pop_up">
+					<p class="price_dish_pop_up">${elem.price}</p>
+					<p class="weight_dish_pop_up ">${elem.weight}</p>
+					</div>
+				 
+				</div>
+			`
 		} else {
 			popup.innerHTML = `
         <div class="nav_line"><span class="nav_line_el"></span></div>
           <img class="photo_menu_pop_up" src=${elem.img} alt="">
           <div class="container_text_menu">
             <p class="title_dish_pop_up">${elem.name}</p>
+						<div class="weight_box_pop_up">
             <p class="price_dish_pop_up">${elem.price}</p>
-						<p class="weight_items">${elem.weight}</p>
+						</div>
            
           </div>
         `

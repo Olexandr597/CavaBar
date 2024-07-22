@@ -1077,20 +1077,50 @@ iframe {
 	.content_dish_pop_up {
 		width: 342px;
 	}
+	.weight_box_pop_up {
+		width: 342px;
+	}
 }
 .price_dish_pop_up {
-	width: 290px;
+	/* width: 290px; */
 	color: var(--White, #fffbfa);
 	font-family: Roboto;
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: normal;
+	/* margin-left: auto;
+	margin-right: auto; */
+	/* margin-bottom: 10px; */
+}
+/* @media screen and (min-width: 375px) {
+	.price_dish_pop_up {
+		width: 342px;
+	}
+	.weight_dish_pop_up {
+		width: 342px;
+	}
+} */
+.weight_box_pop_up {
+	display: flex;
+	justify-content: space-between;
+	width: 290px;
 	margin-left: auto;
 	margin-right: auto;
 }
 @media screen and (min-width: 375px) {
-	.price_dish_pop_up {
+	.weight_box_pop_up {
 		width: 342px;
 	}
+}
+.weight_dish_pop_up {
+	/* width: 290px; */
+	color: var(--White, #fffbfa);
+	font-family: Roboto;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	/* margin-left: auto;
+	margin-right: auto; */
 }
