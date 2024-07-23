@@ -686,8 +686,12 @@ iframe {
 .container_text_menu {
 	column-gap: normal;
 	display: grid;
-	margin-bottom: auto;
+	/* margin-bottom: auto;
 	width: 100%;
+	display: flex; */
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
 }
 .price_box {
 	display: flex;
@@ -695,6 +699,7 @@ iframe {
 	/* position: absolute;
 	top: auto; */
 	/* vertical-align: bottom; */
+	align-items: flex-end;
 	width: 100%;
 }
 .weight_items {
@@ -747,7 +752,6 @@ iframe {
 	overflow: scroll;
 	overflow: hidden;
 	display: none;
-	margin-bottom: auto;
 }
 @media screen and (min-width: 375px) {
 	.content_dish {
