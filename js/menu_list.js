@@ -625,7 +625,7 @@ const dessertMenu = [
 		name: 'Чізкейк',
 		price: '90 грн',
 		img: './images/dessert_popup_1.webp',
-		weight: '220 г',
+		weight: '200 г',
 	},
 	{
 		name: 'Маренговий рулет',

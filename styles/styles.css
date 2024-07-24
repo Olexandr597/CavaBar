@@ -691,7 +691,7 @@ iframe {
 	display: flex; */
 	flex-direction: column;
 	justify-content: space-between;
-	height: 100%;
+	/* height: 100%; */
 }
 .price_box {
 	display: flex;
@@ -828,6 +828,7 @@ iframe {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 }
 .menu_box {
 	box-sizing: border-box;
