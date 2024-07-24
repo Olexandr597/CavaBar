@@ -721,8 +721,6 @@ iframe {
 
 	max-width: 236px;
 	align-self: stretch;
-
-	/* margin-bottom: 100%; */
 }
 
 @media screen and (min-width: 375px) {
