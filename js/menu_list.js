@@ -751,7 +751,7 @@ function hidePopup() {
 			popup.removeEventListener('touchstart', handleTouchStart, false)
 			popup.removeEventListener('touchmove', handleTouchMove, false)
 			popup.removeEventListener('touchend', handleTouchEnd, false)
-		}, 300) // 300 milliseconds, should match the transition duration
+		}, 450) // 300 milliseconds, should match the transition duration
 	}
 }
 
