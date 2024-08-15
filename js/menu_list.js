@@ -521,7 +521,7 @@ const pitaMenu = [
 		name: 'Лаваш з запеченою куркою',
 		description:
 			'Лаваш, курка запечена, помідор, салат, огірок, сир, соус сметанковий',
-		price: '650 грн',
+		price: '165 грн',
 		img: './images/pita_popup_1.webp',
 		weight: '500 г ',
 	},
